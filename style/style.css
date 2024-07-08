@@ -18,6 +18,10 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
+
 .color-main{
     color: rgb(253, 110, 10);
 }
@@ -82,6 +86,10 @@ nav li a{
 .banner-contant{
     max-width: 580px;
 }
+.p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 .name{
     color: rgb(24, 24, 24);
     font-family: Open Sans;
@@ -93,4 +101,63 @@ nav li a{
 }
 .banner-pic{
     width: 580px;
+    margin-bottom: -1;
+}
+
+ /* main */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About */
+.about-me{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+
+}
+.about-contant{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero{
+    margin-top: 100px ;
+    background-color: rgb(255, 248, 243);
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.about-inner{
+    background-color: white;
+    border: #181818;
+}
+.about-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+.item-t{
+    font-size: 18px;
+    font-weight: 400;
+}
+.item-desc{
+    font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+color: #474747;
 }
